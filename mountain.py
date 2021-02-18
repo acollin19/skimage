@@ -45,7 +45,6 @@ def load_dat_file(filename):
         
     except ValueError:
         print("Elements in file must only be integers!")
-# Closing file again in case theres an error and try doesnt run through    
     file.close()
     
     return main_list       
